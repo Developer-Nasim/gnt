@@ -1,0 +1,600 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400; 
+  color: #494B4C;
+  font-size: 16px;
+  line-height: 27px;
+  background: #FFD365;
+}
+a{
+  text-decoration: none;
+}
+  
+button {
+  cursor: pointer; }
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none; }
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  margin-top: 0px;
+  font-weight: 700;
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+ img{
+  max-width: 100%;
+ }
+.container{
+  max-width: 1170px;
+}
+h1 > span,
+h2 > span,
+h3 > span,
+h4 > span,
+h5 > span,
+h6 > span{
+  padding: 0 5px;
+}
+main{
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+ 
+/* default-css END 
+================================== */
+ 
+
+
+.header-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding: 30px 0; 
+  width: 100%;
+  z-index: 99;
+}
+a.logo-area {
+  display: block;
+  width: max-content;
+}
+
+a.logo-area img {
+  max-width: 58px;
+  max-height: 73px;
+}
+.menu-area ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menu-area ul li a {
+  font-size: 18px;
+  color: #000;
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  font-family: 'Orbitron';
+  padding: 5px 13px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.menu-area ul li a:hover {
+  color: #fff;
+  background: #000;
+}
+
+.menu-area ul li a img {
+  transition: .3s;
+}
+
+.menu-area ul li a:hover img {
+  filter: invert(1);
+}
+ 
+
+/* Header section END && Hero-section START */
+
+
+
+.hero-area {
+  display: block;
+  width: 100%;
+}
+
+.hero-area > img {
+  display: block;
+  width: 100%;
+  max-height: 1080px;
+  min-height: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+
+
+/* Hero section END && About-section START */
+
+
+
+
+
+
+section.about-area {
+  padding: 115px 0;
+  position: relative;
+  background: url(../img/bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.about-img {
+  filter: drop-shadow(0px 20px 20px rgba(26, 90, 255, 0.1));
+  background: #F0EDED;
+  border-radius: 16px;
+  padding: 45px;
+}
+
+.about-img img {
+  display: block;
+  width: 100%;
+}
+
+.about-wrp {
+  padding-left: 60px;
+}
+
+.about-wrp h4 {
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.about-wrp h4 > span {
+  position: relative;
+  color: #F54846;
+  background: #FCE08D;
+}
+
+.about-wrp h4 > span img {
+  position: absolute;
+  bottom: 60px;
+  right: -120px;
+  max-width: 215px;
+}
+
+
+
+
+
+/* About section END && Collection-section START */
+
+
+
+section.collection-area {
+  padding: 150px 0 70px 0;
+  position: relative;
+  z-index: 2; 
+}
+section.collection-area.ca2 {
+  background: url(../img/bg2.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: 2;
+}
+section.collection-area img.cloud {
+  position: absolute;
+  z-index: -1;
+  right: 5%;
+  top: 30%;
+}
+
+section.collection-area img.cloud2 {
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  bottom: 20%;
+}
+
+
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.section-title h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+span.red {
+  background: #E16278; 
+}
+span.green{
+  background: #5BC1A0;
+}
+.section-title p {
+  color: #494B4C;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: 'Orbitron', sans-serif; 
+}
+
+.msgImg {
+  text-align: center;
+}
+
+.msgImg img {
+  display: block;
+  margin: auto;
+}
+
+.msgImg p,.collection-wrp p {
+  font-size: 20px;
+  line-height: 36px;
+  font-family: 'Orbitron', sans-serif;
+  color: #666666;
+  margin-top: 50px;
+  text-align: center;
+}
+.collection_blks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.collection-blk {
+  box-shadow: 0px 20px 20px rgba(26, 90, 255, 0.1);
+  border-radius: 16px;
+  background: #FCDDD8;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 0;
+  max-width: 415px;
+  margin: 0 20px;
+}
+.collection-blk.pirple {
+  background: #E1E1FE;
+}
+.collection-blk h4 {
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+
+.collection-blk p {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 25px;
+} 
+.collection-blk h5 {
+  color: #FF0B0B;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.collection-blk h5 span {
+  display: block;
+  color: #FF0C37;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+.collection-blk img {
+  max-height: 295px;
+}
+
+
+
+
+
+
+/* Collection section END && Question-section START */
+
+
+
+
+
+
+.question-area {
+  padding: 80px 0;
+  position: relative;
+  z-index: 2;
+}
+.question-area img.cloud {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  z-index: -1;
+}
+
+.question-area img.cloud2 {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  z-index: -1;
+}
+.question-wrp h4 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 50px;
+}
+
+
+.question-wrp ul {
+  padding: 58px 54px;
+  background: #F54846;
+  border-radius: 16px;
+  color: #fff;
+  padding-bottom: 30px;
+  max-width: 865px;
+  margin: auto;
+}
+
+.question-wrp ul li h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.question-wrp ul li p {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* Question section END && CTA-section START */
+
+
+
+
+
+section.cta-area {
+  background: #25252C;
+  padding: 60px 0;
+}
+
+.cta-wrp {}
+
+.cta-wrp h4 {
+  text-transform: uppercase;
+  color: #F8F8F8;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 25px;
+}
+
+a.theme-btn {
+  background: #F54846;
+  border: 1px solid #EFEFEF;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fffd;
+  padding: 10px 40px;
+  display: block;
+  width: max-content;
+  letter-spacing: 0.12em;
+  margin: auto;
+  transition: .3s;
+  font-family: 'Orbitron', sans-serif;
+}
+
+a.theme-btn:hover {
+  background: #EFEFEF;
+  color: #F54846;
+}
+
+
+
+
+
+
+
+
+
+/* CTA section END && Team-section START */
+
+
+
+
+
+
+section.team-area {
+  position: relative;
+  padding: 75px 0 115px 0;
+  z-index: 2;
+}
+
+.team-title {
+  margin-bottom: 50px;
+}
+
+.team-title h4 {
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+}
+
+section.team-area > img {
+  position: absolute;
+}
+
+section.team-area img.cloud {
+  top: 6%;
+  left: 5%;
+  z-index: -1;
+}
+
+section.team-area img.cloud2 {
+  top: 20%;
+  right: 4%;
+  z-index: -1;
+}
+
+section.team-area img.cloud3 {
+  bottom: 5%;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%
+);
+}
+
+section.team-area > button {
+  position: absolute;
+  bottom: 4%;
+  left: 5%;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.member img {
+  width: 184px;
+  height: 184px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #EEEEEE;
+  margin-bottom: 15px;
+}
+
+.member {
+  text-align: center;
+  max-width: 185px;
+}
+
+.member h5 {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.member p {
+  text-transform: uppercase;
+  color: #656565;
+  margin: 0;
+}
+.teamMembers {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamMembers.tm2 {
+  justify-content: center;
+}
+
+.teamMembers.tm3 {
+  max-width: 1100px;
+}
+
+
+
+
+
+
+
+
+/* TEAM section END && Footer-section START */
+
+
+
+
+footer {
+  background: #1E1D1D;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+
+/* Header section END && Hero-section START */
