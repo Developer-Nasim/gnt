@@ -177,7 +177,7 @@ a.logo-area img {
   display: block;
   width: 100%;
   max-height: 1080px;
-  min-height: 250px;
+  min-height: 300px;
   object-fit: cover;
   object-position: top;
 }
@@ -316,6 +316,7 @@ span.green{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .collection-blk {
   box-shadow: 0px 20px 20px rgba(26, 90, 255, 0.1);
